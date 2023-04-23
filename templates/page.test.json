@@ -1,10 +1,12 @@
 {
-	"sections": {
-		"main": {
-			"type": "test-ref",
-			"settings": {}
-		}
-	},
-	"order": ["main"]
-
+  "sections": {
+    "main": {
+      "type": "test-ref",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
 }
