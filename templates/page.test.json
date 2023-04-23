@@ -3,7 +3,8 @@
     "main": {
       "type": "test-ref",
       "settings": {
-        "input-field": "New input value"
+        "input-field": "New input value",
+        "vertical_alignment": "bottom"
       }
     }
   },
