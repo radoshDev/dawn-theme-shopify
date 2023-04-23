@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "main": {
+      "type": "test-ref",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
