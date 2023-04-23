@@ -3,6 +3,7 @@
     "main": {
       "type": "test-ref",
       "settings": {
+        "test-ref": "New input value"
       }
     }
   },
