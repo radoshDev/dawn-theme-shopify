@@ -6,9 +6,17 @@
         "input-field": "New input value",
         "vertical_alignment": "bottom"
       }
+    },
+    "570905fe-3c30-4df4-b7b7-6934ccdad8a1": {
+      "type": "test-ref",
+      "settings": {
+        "input-field": "Нарешті бля",
+        "vertical_alignment": "top"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "570905fe-3c30-4df4-b7b7-6934ccdad8a1"
   ]
 }
