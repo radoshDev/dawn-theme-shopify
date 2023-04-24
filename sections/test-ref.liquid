@@ -5,7 +5,10 @@
   <div>Alignment: {{ section.settings["vertical_alignment"] }}</div>
   <p>Size: {{ blogs.size }}</p>
   {% for link in linklists.blogs.links %}
-    <p>Blogs: {{ link.url }}</p>
+    {% assign blog = link.object %}
+    {% for article in  blog.articles %}
+      <p>Blogs: {{ article.title }}</p>
+    {% endfor %}
   {% endfor %}
 </div>
 
