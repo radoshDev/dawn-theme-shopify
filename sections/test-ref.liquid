@@ -4,6 +4,9 @@
   <p>Input: {{ section.settings['input-field'] }}</p>
   <div>Alignment: {{ section.settings["vertical_alignment"] }}</div>
   <p>Size: {{ blogs.size }}</p>
+  {% for link in linklists.blogs.links %}
+    <p>Blogs: {{ link.url }}</p>
+  {% endfor %}
 </div>
 
 {% schema %}
